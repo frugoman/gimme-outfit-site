@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Gimme Outfit</title>
+<meta name="description" content="Help and answers for the Gimme Outfit iOS app.">
+<meta name="theme-color" content="#F5F1EA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #F5F1EA; --card: #FCFAF6; --ink: #1B1917; --muted: #6E6760;
+    --line: rgba(27,25,23,.10); --accent: #B8573A; --accent-ink: #FFFFFF;
+    --soft: rgba(184,87,58,.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121110; --card: #1C1A18; --ink: #F3EEE6; --muted: #A39B91;
+      --line: rgba(243,238,230,.10); --accent: #E07A5A; --accent-ink: #121110;
+      --soft: rgba(224,122,90,.14);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, summary, .wordmark {
+    font-family: ui-serif, "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
+    font-weight: 500; letter-spacing: -.015em;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 24px 72px; }
+  header.top { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 4px 0 56px; }
+  .wordmark { font-size: 22px; color: var(--ink); text-decoration: none; }
+  .wordmark em { color: var(--accent); }
+  nav a { color: var(--muted); text-decoration: none; font-size: 15px; margin-left: 20px; }
+  nav a:hover, nav a[aria-current] { color: var(--ink); }
+  .eyebrow { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin: 0 0 16px; }
+  h1 { font-size: clamp(40px, 7vw, 60px); line-height: 1.05; margin: 0 0 18px; }
+  h2 { font-size: 26px; line-height: 1.2; margin: 56px 0 16px; }
+  p { margin: 0 0 14px; }
+  .lede { font-size: 19px; color: var(--muted); max-width: 34em; }
+  a { color: var(--accent); }
+  .contact { margin-top: 32px; background: var(--card); border: 1px solid var(--line); border-radius: 26px; padding: clamp(24px, 5vw, 36px); }
+  .contact h2 { margin-top: 0; }
+  .contact p { color: var(--muted); }
+  .btn { display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 600; font-size: 16px; padding: 13px 24px; border-radius: 999px; margin: 6px 0 12px; }
+  .addr { font-size: 15px; color: var(--muted); word-break: break-all; }
+  .faq { display: grid; gap: 12px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 0 22px; }
+  summary { cursor: pointer; list-style: none; font-size: 20px; line-height: 1.35; padding: 20px 32px 20px 0; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 22px; font-weight: 300; color: var(--accent); }
+  details[open] summary::after { content: "\2212"; }
+  details .a { padding: 0 0 12px; color: var(--muted); }
+  details .a strong { color: var(--ink); font-weight: 600; }
+  footer { margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+  footer a { color: var(--muted); }
+  @media (max-width: 520px) { nav a { margin-left: 14px; } header.top { padding-bottom: 40px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="wordmark" href="/gimme-outfit-site/">Gimme <em>Outfit</em></a>
+    <nav>
+      <a href="/gimme-outfit-site/support/" aria-current="page">Support</a>
+      <a href="/gimme-outfit-site/privacy/">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="eyebrow">Support</p>
+    <h1>How can we help?</h1>
+    <p class="lede">Answers to common questions about Gimme Outfit. Can&rsquo;t find what you need?
+    Email us &mdash; a real person reads every message.</p>
+
+    <h2>Frequently asked</h2>
+    <div class="faq">
+      <details>
+        <summary>How do I get good cutouts?</summary>
+        <div class="a">
+          <p>Photograph one piece at a time, laid flat or on a hanger, against a plain background that
+          contrasts with the item. Use soft, even light, avoid strong shadows, and keep the whole piece in
+          the frame. Gimme Outfit removes the background automatically.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Why does the outfit need a jacket?</summary>
+        <div class="a">
+          <p>Daily looks are built for today&rsquo;s forecast. When it&rsquo;s cold, windy or rainy where you
+          are, Gimme Outfit adds an outer layer. If it doesn&rsquo;t suit you, swap or remove that piece, or
+          shuffle for a different look.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How does &ldquo;Several pieces per photo&rdquo; work?</summary>
+        <div class="a">
+          <p>Turn on <strong>Several pieces per photo</strong> when adding clothes and you can photograph
+          a few items together &mdash; for example, an outfit laid out on the bed. Gimme Outfit finds each
+          piece in the picture and adds them to your closet as separate items. For the cleanest results,
+          leave a little space between pieces.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Does it work without Apple Intelligence?</summary>
+        <div class="a">
+          <p><strong>Yes.</strong> On iPhones without Apple Intelligence, Gimme Outfit uses its built-in
+          style engine, so you still get daily looks on any iPhone running iOS&nbsp;26.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How do I cancel Gimme Outfit Plus?</summary>
+        <div class="a">
+          <p>Subscriptions are managed by Apple. On your iPhone, open <strong>Settings &rarr; your Apple
+          Account &rarr; Subscriptions</strong>, choose Gimme Outfit, and tap Cancel Subscription. You keep
+          Plus until the end of the current billing period.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How do I restore my purchase?</summary>
+        <div class="a">
+          <p>Open the Plus screen in the app and tap <strong>Restore purchases</strong>. Make sure
+          you&rsquo;re signed in with the same Apple Account you used to buy.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Is my data private?</summary>
+        <div class="a">
+          <p><strong>Yes.</strong> All of the app&rsquo;s intelligence runs on your device, and there is no
+          Gimme Outfit account or server. Your photos, closet, calendar and location are never sent to us.
+          If you use iCloud, your closet syncs through your own private iCloud. You can export it any time
+          (Settings &rarr; <em>Export my closet</em>) or erase it (Settings &rarr; <em>Erase all my
+          data</em>). Read the full <a href="/gimme-outfit-site/privacy/">Privacy Policy</a>.</p>
+        </div>
+      </details>
+    </div>
+
+    <section class="contact">
+      <h2>Still need help?</h2>
+      <p>Found a bug, have an idea, or something isn&rsquo;t working? Email us and we&rsquo;ll get back to you.</p>
+      <a class="btn" href="mailto:nfrugoni19+gimmeoutfit@gmail.com?subject=Gimme%20Outfit%20Support">Email support</a>
+      <p class="addr">nfrugoni19+gimmeoutfit@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="/gimme-outfit-site/">&larr; Gimme Outfit</a>
+    <span><a href="/gimme-outfit-site/privacy/">Privacy Policy</a></span>
+  </footer>
+</div>
+</body>
+</html>
