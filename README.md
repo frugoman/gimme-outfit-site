@@ -3,8 +3,8 @@
 Public privacy policy and support pages for **Gimme Outfit** (iOS, `com.frusoft.GimmeOutfit`),
 served via GitHub Pages. Static HTML, no build step.
 
-- Home: https://frugoman.github.io/gimme-outfit-site/
-- Privacy: https://frugoman.github.io/gimme-outfit-site/privacy/
-- Support: https://frugoman.github.io/gimme-outfit-site/support/
+- Home: https://gimmeoutfit.frusoft.dev/
+- Privacy: https://gimmeoutfit.frusoft.dev/privacy/
+- Support: https://gimmeoutfit.frusoft.dev/support/
 
 The app itself lives in a separate (private) repository.
